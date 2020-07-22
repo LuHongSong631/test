@@ -44,7 +44,7 @@ func main(){
 		fmt.Println("解码失败", err1.Error())
 	}else{
 		fmt.Println("解码成功")
-		fmt.Println(info1)
+		fmt.Println("12345")//将47换成12345
 	}
 
 	//写xml文件
