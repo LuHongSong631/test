@@ -17,7 +17,7 @@ func main(){
 		fmt.Println("文件创建失败",err.Error())
 		return
 	}
-	defer filePtr.Close()
+	 filePtr.Close()//我也对二十行做了修改，将defer去掉了
 	//创建Json编码器
 	encoder := json.NewEncoder(filePtr)
 
